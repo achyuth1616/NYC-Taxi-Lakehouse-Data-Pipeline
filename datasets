@@ -1,1 +1,26 @@
 
+Dataset
+
+This project uses the NYC Yellow Taxi Trip Records dataset provided by the New York City Taxi and Limousine Commission (TLC).
+
+Dataset Source:
+NYC TLC Trip Record Data
+
+Files Used
+yellow_tripdata_2026-01.parquet
+yellow_tripdata_2026-02.parquet
+yellow_tripdata_2026-03.parquet
+Dataset Description
+
+The dataset contains detailed information about NYC taxi trips, including:
+
+Pickup and dropoff timestamps
+Passenger count
+Trip distance
+Fare amount
+Total amount
+Payment type
+Pickup and dropoff locations
+Note
+
+Due to the large size of the dataset, raw data files are not included in this repository. The dataset can be downloaded directly from the official NYC TLC website using the link above.
