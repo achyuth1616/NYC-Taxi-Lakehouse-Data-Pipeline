@@ -1,4 +1,4 @@
-# NYC Taxi Lakehouse Data Engineering Project
+# NYC Taxi Lakehouse Data Pipeline Project
 
 ## Overview
 
