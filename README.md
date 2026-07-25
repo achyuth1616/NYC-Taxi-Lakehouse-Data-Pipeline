@@ -234,7 +234,6 @@ Contains:
 ---
 
 
-```text
 NYC-Taxi-Lakehouse-Data-Pipeline/
 │
 ├── README.md
@@ -247,6 +246,12 @@ NYC-Taxi-Lakehouse-Data-Pipeline/
 │   ├── Silver_Transformation/
 │   ├── Gold_Aggregations/
 │   └── SQL_Queries/
+│
+├── screenshots/
+│   ├── raw_data_volume.png
+│   ├── bronze_table.png
+│   ├── silver_table.png
+│   └── gold_tables.png
 │
 └── powerbi/
     ├── NYC_Taxi_Analytics_Dashboard.pbix
