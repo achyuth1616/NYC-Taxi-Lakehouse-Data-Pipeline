@@ -236,7 +236,7 @@ Contains:
 - Generated business-ready Gold datasets for analytics and reporting.
 - Developed interactive Power BI dashboards for operational and business insights.
 - Implemented KPI aggregation for daily and monthly trend analysis.
-
+  
 ---
 
 ## Project Structure
@@ -244,36 +244,21 @@ Contains:
 ```text
 NYC-Taxi-Lakehouse-Project/
 │
-├── architecture/
-│   └── architecture.png
-│
-├── datasets/
-│   └── README.md
+├── README.md
+├── architecture.png
+├── datasets.md
 │
 ├── notebooks/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+│   ├── EDA/
+│   ├── Bronze_Ingestion/
+│   ├── Silver_Transformation/
+│   ├── Gold_Aggregations/
+│   └── SQL_Queries/
 │
-├── sql-queries/
-│
-├── dashboard/
-│   ├── daily_dashboard.png
-│   └── monthly_dashboard.png
-│
-└── README.md
+└── dashboard/
+    ├── daily_dashboard.png
+    └── monthly_dashboard.png
 ```
-
----
-
-## Future Enhancements
-
-- Databricks Workflows orchestration
-- Incremental batch processing
-- Real-time streaming pipeline using Kafka
-- Predictive demand forecasting using Machine Learning
-- Automated data quality monitoring
-
 ---
 
 ## Dashboard Preview
@@ -290,6 +275,7 @@ NYC-Taxi-Lakehouse-Project/
 ---
 
 ## Author
+*Vadlakonda Achyuth Sai
 
 **B.Tech Artificial Intelligence**  
 **Anurag University**
