@@ -253,7 +253,8 @@ NYC-Taxi-Lakehouse-Data-Pipeline/
     ├── daily_analytics.png
     └── monthly_analytics.png
 ```
----
+```
+
 ## Power BI Dashboard
 
 The Power BI dashboard was built using the Gold Layer analytics generated in Databricks.
