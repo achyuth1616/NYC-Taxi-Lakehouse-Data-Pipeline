@@ -18,6 +18,14 @@ The NYC Yellow Taxi Trip Records dataset contains detailed information about tax
 
 The dataset is widely used for data engineering, big data processing, analytics, and machine learning applications.
 
+## Dataset Files Used
+
+The following monthly datasets were used in this project:
+
+* yellow_tripdata_2026-01.parquet
+* yellow_tripdata_2026-02.parquet
+* yellow_tripdata_2026-03.parquet
+
 ## File Format
 
 * Format: Parquet
@@ -61,5 +69,5 @@ This dataset is utilized for:
 
 ## Note
 
-Large dataset files are not included in this repository due to GitHub storage limitations. The data can be downloaded directly from the official NYC TLC website using the source link provided above.
+Large dataset files are not included in this repository due to GitHub storage limitations. The datasets can be downloaded directly from the official NYC TLC Trip Record Data website.
 
