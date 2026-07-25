@@ -1,41 +1,65 @@
+# Datasets
 
-# Dataset Information
+## Overview
 
-## Source
-Dataset: NYC Yellow Taxi Trip Records
+This directory contains the datasets used in the **NYC Taxi Data Engineering Project**. These datasets serve as the primary data source for ingestion, transformation, and analytics workflows.
 
-## Download Link
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+## Dataset Source
 
-## File Details
+**Dataset Name:** NYC Yellow Taxi Trip Records
+
+**Provider:** New York City Taxi & Limousine Commission (TLC)
+
+**Official Source:** https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+## Dataset Description
+
+The NYC Yellow Taxi Trip Records dataset contains detailed information about taxi trips in New York City, including trip timestamps, passenger counts, trip distances, fare details, payment information, and pickup/drop-off location identifiers.
+
+The dataset is widely used for data engineering, big data processing, analytics, and machine learning applications.
+
+## File Format
 
 * Format: Parquet
-* Dataset: Yellow Taxi Trip Data
-* Rows: ~3.7 Million
-* Columns:
+* Data Type: Structured Transportation Data
+* Frequency: Monthly Releases
 
-  * VendorID
-  * tpep_pickup_datetime
-  * tpep_dropoff_datetime
-  * passenger_count
-  * trip_distance
-  * RatecodeID
-  * store_and_fwd_flag
-  * PULocationID
-  * DOLocationID
-  * payment_type
-  * fare_amount
-  * extra
-  * mta_tax
-  * tip_amount
-  * tolls_amount
-  * improvement_surcharge
-  * total_amount
-  * congestion_surcharge
-  * Airport_fee
+## Dataset Schema
 
-## Purpose
-This dataset is used for the NYC Taxi Data Engineering Project implemented using Databricks, PySpark, Delta Lake, and Power BI.
+| Column Name           | Description                       |
+| --------------------- | --------------------------------- |
+| VendorID              | Taxi service provider identifier  |
+| tpep_pickup_datetime  | Pickup date and time              |
+| tpep_dropoff_datetime | Drop-off date and time            |
+| passenger_count       | Number of passengers              |
+| trip_distance         | Distance traveled during the trip |
+| RatecodeID            | Rate code applied to the trip     |
+| store_and_fwd_flag    | Trip record storage indicator     |
+| PULocationID          | Pickup location identifier        |
+| DOLocationID          | Drop-off location identifier      |
+| payment_type          | Payment method used               |
+| fare_amount           | Base fare amount                  |
+| extra                 | Additional charges                |
+| mta_tax               | MTA tax amount                    |
+| tip_amount            | Passenger tip amount              |
+| tolls_amount          | Toll charges                      |
+| improvement_surcharge | Improvement surcharge             |
+| total_amount          | Total trip cost                   |
+| congestion_surcharge  | Congestion surcharge              |
+| Airport_fee           | Airport-related fee               |
 
-## Notes
-Large dataset files are not stored directly in GitHub due to size limitations. Download the dataset using the source link above.
+## Data Usage
+
+This dataset is utilized for:
+
+* Data Ingestion and Storage
+* Data Cleaning and Validation
+* Exploratory Data Analysis (EDA)
+* Business Intelligence and Reporting
+* Data Engineering Pipeline Development
+* Performance and Trend Analysis
+
+## Note
+
+Large dataset files are not included in this repository due to GitHub storage limitations. The data can be downloaded directly from the official NYC TLC website using the source link provided above.
+
