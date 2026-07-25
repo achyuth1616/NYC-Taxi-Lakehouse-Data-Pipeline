@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the datasets used in the **NYC Taxi Data Engineering Project**. These datasets serve as the primary data source for ingestion, transformation, and analytics workflows.
+This directory contains the datasets used in the **NYC Taxi Lakehouse Data Pipeline Project**. These datasets serve as the primary data source for ingestion, transformation, and analytics workflows.
 
 ## Dataset Source
 
