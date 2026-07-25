@@ -6,35 +6,29 @@ This project implements an end-to-end Data Engineering pipeline using the Medall
 
 The project processes over **10 million taxi trip records** and demonstrates data ingestion, cleansing, transformation, aggregation, and visualization workflows.
 
----
-
 ## Architecture
 
 ```text
-NYC TLC Parquet Files
-          │
-          ▼
- Databricks Volume (Raw)
-          │
-          ▼
-      Bronze Layer
-   (Raw Delta Tables)
-          │
-          ▼
-      Silver Layer
+NYC TLC Yellow Taxi Parquet Files
+                │
+                ▼
+      Databricks Volume (Raw)
+                │
+                ▼
+          Bronze Layer
+      (Raw Delta Tables)
+                │
+                ▼
+          Silver Layer
  (Data Cleaning & Feature Engineering)
-          │
-          ▼
-       Gold Layer
+                │
+                ▼
+           Gold Layer
  (Business Aggregations & KPIs)
-          │
-          ▼
-     Power BI Dashboard
+                │
+                ▼
+      Power BI Dashboard
 ```
-
----
-
-## Dataset
 
 ### Source
 
