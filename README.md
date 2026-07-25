@@ -145,12 +145,6 @@ Created derived columns:
 - day_of_week
 - trip_month
 
-### Output
-
-```text
-nyc_taxi.silver.yellow_taxi_silver
-```
-
 ---
 
 ## Gold Layer
@@ -275,7 +269,7 @@ NYC-Taxi-Lakehouse-Project/
 ---
 
 ## Author
-*Vadlakonda Achyuth Sai
+Vadlakonda Achyuth Sai
 
 **B.Tech Artificial Intelligence**  
 **Anurag University**
