@@ -233,10 +233,9 @@ Contains:
   
 ---
 
-## Project Structure
 
 ```text
-NYC-Taxi-Lakehouse-Project/
+NYC-Taxi-Lakehouse-Data-Pipeline/
 │
 ├── README.md
 ├── architecture.png
@@ -249,11 +248,28 @@ NYC-Taxi-Lakehouse-Project/
 │   ├── Gold_Aggregations/
 │   └── SQL_Queries/
 │
-└── dashboard/
-    ├── daily_dashboard.png
-    └── monthly_dashboard.png
+└── powerbi/
+    ├── NYC_Taxi_Analytics_Dashboard.pbix
+    ├── daily_analytics.png
+    └── monthly_analytics.png
 ```
 ---
+## Power BI Dashboard
+
+The Power BI dashboard was built using the Gold Layer analytics generated in Databricks.
+
+### Key Insights
+- Total Trips
+- Total Revenue
+- Average Fare Amount
+- Daily Trip Trends
+- Monthly Analytics
+- Peak Pickup Hours
+
+### Dashboard File
+`powerbi/NYC_Taxi_Analytics_Dashboard.pbix`
+
+### Dashboard Screenshots
 
 ## Dashboard Preview
 
