@@ -226,7 +226,7 @@ Contains:
 - Implemented KPI aggregation for daily and monthly trend analysis.
   
 ---
-
+```
 
 NYC-Taxi-Lakehouse-Data-Pipeline/
 │
@@ -252,7 +252,9 @@ NYC-Taxi-Lakehouse-Data-Pipeline/
     ├── daily_analytics.png
     └── monthly_analytics.png
 ```
-```
+
+
+
 
 ## Power BI Dashboard
 
